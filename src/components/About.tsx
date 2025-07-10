@@ -4,10 +4,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faServer, faDownload } from '@fortawesome/free-solid-svg-icons';
-
+import TechParticles from '../components/TechParticles';
 const About = () => {
   return (
     <section id="about" className="py-20 relative">
+      <TechParticles/>
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center" data-aos="fade-up">
           <span className="gradient-text">About Me</span>
