@@ -117,7 +117,7 @@ const CanvasBackground: React.FC = () => {
         }
       }
 
-      step() {
+      step(ctx: CanvasRenderingContext2D) {
         ++this.time;
         ++this.cumulativeTime;
 
@@ -165,7 +165,7 @@ const CanvasBackground: React.FC = () => {
         lines.push(new Line());
       }
 
-      lines.forEach(line => line.step());
+      lines.forEach(line => line.step(ctx));
 
       animationFrameId.current = window.requestAnimationFrame(loop);
     };
