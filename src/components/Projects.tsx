@@ -15,6 +15,31 @@ const Projects = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Kinerja Pcn */}
+          <div className="bg-slate-800 bg-opacity-50 rounded-xl overflow-hidden border border-blue-900 card-hover" data-aos="fade-up" data-aos-delay="100">
+            <div className="h-48 bg-blue-900 relative overflow-hidden">
+              {/* Replace with actual project image paths */}
+              <Image src="/images/kinerjaKPI.png" alt="KPI Kinerja" width={600} height={400} className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-blue-800 opacity-30"></div>
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-blue-400 mb-2">Aplikasi KPI Kinerja</h3>
+              <p className="text-gray-300 mb-4">Aplikasi KPI Kinerja untuk PT.BANK berbasis web laravel, bootstrap dan php</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Laravel</span>
+                <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Php</span>
+                <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Bootstrap</span>
+              </div>
+              <div className="flex space-x-3">
+                <Link href="/" className="text-blue-400 hover:text-white transition" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faExternalLinkAlt} />
+                </Link>
+                <Link href="https://github.com/HexxaZen" className="text-blue-400 hover:text-white transition" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} />
+                </Link>
+              </div>
+            </div>
+          </div>
           {/* Project 1 */}
           <div className="bg-slate-800 bg-opacity-50 rounded-xl overflow-hidden border border-blue-900 card-hover" data-aos="fade-up" data-aos-delay="100">
             <div className="h-48 bg-blue-900 relative overflow-hidden">
@@ -115,7 +140,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
+      
         <div className="text-center mt-12" data-aos="fade-up">
           <Link href="#" className="inline-block border border-blue-500 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-3 rounded-lg transition">
             View All Projects <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
