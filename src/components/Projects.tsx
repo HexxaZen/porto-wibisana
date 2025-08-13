@@ -130,7 +130,7 @@ const Projects = () => {
                 <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">JavaScript</span>
               </div>
               <div className="flex space-x-3">
-                <Link href="https://hexxazen.github.io/codecoffee/" className="text-blue-400 hover:text-white transition" target="_blank" rel="noopener noreferrer">
+                <Link href="https://hexxazen.github.io/CodeCoffee/" className="text-blue-400 hover:text-white transition" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </Link>
                 <Link href="https://github.com/HexxaZen/CodeCoffee" className="text-blue-400 hover:text-white transition" target="_blank" rel="noopener noreferrer">
