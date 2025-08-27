@@ -16,8 +16,8 @@ const Experience = () => {
             <div className="relative" data-aos="fade-up">
               <div className="md:flex">
                 <div className="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
-                  <h3 className="text-xl font-bold text-blue-400">Junior Web Developer Internship</h3>
-                  <p className="text-gray-400">PT. Sinergi Inovasi Tekno, Jakarta</p>
+                  <h3 className="text-xl font-bold text-blue-400">Internship Web Developer</h3>
+                  <p className="text-gray-400">Sinergi Inovasi Tekno, Jakarta</p>
                   <p className="text-sm text-gray-500">June 2025 - Present</p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 -ml-4 mt-2 w-8 h-8 rounded-full bg-blue-600 border-4 border-blue-300 transform -translate-x-1/2"></div>
@@ -60,18 +60,17 @@ const Experience = () => {
             <div className="relative" data-aos="fade-up">
               <div className="md:flex">
                 <div className="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
-                  <h3 className="text-xl font-bold text-blue-400">Operational Staff</h3>
-                  <p className="text-gray-400">Baro Cafe, Kudus</p>
-                  <p className="text-sm text-gray-500">November 2023 - November 2024</p>
+                  <h3 className="text-xl font-bold text-blue-400">FreeLancer</h3>
+                  <p className="text-gray-400">Personal Bussiness</p>
+                  <p className="text-sm text-gray-500">May 2023 - Present</p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 -ml-4 mt-2 w-8 h-8 rounded-full bg-blue-600 border-4 border-blue-300 transform -translate-x-1/2"></div>
                 <div className="md:w-1/2 md:pl-12">
                   <div className="bg-slate-800 bg-opacity-50 p-6 rounded-lg border border-blue-900 card-hover">
-                    <p className="text-gray-300">Managed daily operations, customer service, and inventory. This experience helped develop strong organizational and interpersonal skills that translate well to project management in web development.</p>
+                    <p className="text-gray-300">Create assignment jockey orders for all courses, especially in the web development sector</p>
                     <div className="mt-4 flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Customer Service</span>
-                      <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Inventory</span>
-                      <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Operations</span>
+                      <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Web Development</span>
+                      <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Customer Services</span>
                     </div>
                   </div>
                 </div>
