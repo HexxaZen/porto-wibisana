@@ -18,7 +18,7 @@ const Projects = () => {
           {/* Project 1 */}
           <div className="bg-slate-800 bg-opacity-50 rounded-xl overflow-hidden border border-blue-900 card-hover flex flex-col" data-aos="fade-up" data-aos-delay="100">
             <div className="h-48 bg-blue-900 relative overflow-hidden">
-              <Image src="/images/hris_pln.png" alt="HRIS PLN" width={600} height={400} className="w-full h-full object-cover" />
+              <Image src="/images/HRIS_PLN.png" alt="HRIS PLN" width={600} height={400} className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-blue-800 opacity-30"></div>
             </div>
             <div className="p-6 flex-grow flex flex-col justify-between">
