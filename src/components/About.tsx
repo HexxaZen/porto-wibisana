@@ -71,7 +71,7 @@ const About = () => {
               </div>
             </div>
 
-            <Link href="/documents/CV_DWI_AGUS_WIBISANA.pdf" download="Dwi_Agus_Wibisana_CV.pdf" className="inline-block border border-blue-500 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-2 rounded-lg transition">
+            <Link href="/documents/CV_WIBISANA.pdf" download="Dwi_Agus_Wibisana_CV.pdf" className="inline-block border border-blue-500 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-2 rounded-lg transition">
               <FontAwesomeIcon icon={faDownload} className="mr-2" /> Download CV
             </Link>
           </div>
