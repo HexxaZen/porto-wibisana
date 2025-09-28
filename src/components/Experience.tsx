@@ -17,7 +17,7 @@ const Experience = () => {
               <div className="md:flex">
                 <div className="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
                   <h3 className="text-xl font-bold text-blue-400">Internship Web Developer</h3>
-                  <p className="text-gray-400">Sinergi Inovasi Tekno, Jakarta</p>
+                  <p className="text-gray-400">PT.Sinergi Inovasi Tekno, Jakarta</p>
                   <p className="text-sm text-gray-500">June 2025 - Present</p>
                 </div>
                 <div className="hidden md:block absolute left-1/2 -ml-4 mt-2 w-8 h-8 rounded-full bg-blue-600 border-4 border-blue-300 transform -translate-x-1/2"></div>

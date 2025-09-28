@@ -15,6 +15,32 @@ const Projects = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Project E-COMMERCE */}
+          <div className="bg-slate-800 bg-opacity-50 rounded-xl overflow-hidden border border-blue-900 card-hover flex flex-col" data-aos="fade-up" data-aos-delay="100">
+            <div className="h-48 bg-blue-900 relative overflow-hidden">
+              <Image src="/images/betrayal.png" alt="Betrayal E-Commerce" width={600} height={400} className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-blue-800 opacity-30"></div>
+            </div>
+            <div className="p-6 flex-grow flex flex-col justify-between">
+              <div>
+                <h3 className="text-xl font-bold text-blue-400 mb-2">BETRAYAL E-COMMERCE WEBSITE</h3>
+                <p className="text-gray-300 mb-4">Website e-commerce fashion dengan NEXT.JS, TYPESCRIPT</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Next.Js</span>
+                  <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Tailwindcss</span>
+                  <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">TypeScript</span>
+                </div>
+              </div>
+              <div className="flex space-x-3 mt-4">
+                <Link href="github.com/HexxaZen" className="text-blue-400 hover:text-white transition" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faExternalLinkAlt} />
+                </Link>
+                <Link href="github.com/hexxazen" className="text-blue-400 hover:text-white transition" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} />
+                </Link>
+              </div>
+            </div>
+          </div>
           {/* Project 1 */}
           <div className="bg-slate-800 bg-opacity-50 rounded-xl overflow-hidden border border-blue-900 card-hover flex flex-col" data-aos="fade-up" data-aos-delay="100">
             <div className="h-48 bg-blue-900 relative overflow-hidden">
