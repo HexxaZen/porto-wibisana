@@ -24,7 +24,7 @@ const Projects = () => {
             <div className="p-6 flex-grow flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-bold text-blue-400 mb-2">BETRAYAL E-COMMERCE WEBSITE</h3>
-                <p className="text-gray-300 mb-4">Website e-commerce fashion dengan NEXT.JS, TYPESCRIPT</p>
+                <p className="text-gray-300 mb-4">Website e-commerce fashion dengan Restful API dan Payment Method MidTrans</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Next.Js</span>
                   <span className="px-3 py-1 bg-blue-900 bg-opacity-50 text-blue-300 rounded-full text-sm">Tailwindcss</span>
